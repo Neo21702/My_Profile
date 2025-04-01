@@ -18,7 +18,7 @@ The primary goal of this portfolio is to make a strong impression on potential e
 
 ## How to Access My Portfolio on GitHub
 
-*Click on the file: https://github.com/Neo21702/My_Profile/blob/main/index.html link and then download raw file and paste its link to url. 
+*Click on the file: https://github.com/Neo21702/My_Profile/blob/main/index.html link, then download raw file and paste its link to url for access. 
 
 ## How to Use the Index.html File
 
