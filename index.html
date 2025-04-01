@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Neo Mokoele - Tech Portfolio</title>
+  <style>
+    /* General styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: url('https://images.pexels.com/photos/701184/pexels-photo-701184.jpeg') no-repeat center center/cover;
+      background-attachment: fixed;
+      padding-top: 50px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      z-index: 1000;
+    }
+
+    nav .logo h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    nav .nav-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    nav .nav-links li {
+      list-style: none;
+      margin: 0 15px;
+    }
+
+    nav .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav .nav-links a:hover {
+      color: #ff7f50;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 0;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    header h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #ff7f50;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .section {
+      padding: 60px 0;
+      color: #333;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff7f50;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+
+    .cv-button {
+      background-color: #ff7f50;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      margin-top: 20px;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .cv-button:hover {
+      background-color: #e56b40;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    /* Media queries */
+    @media only screen and (max-width: 768px) {
+      nav .nav-links {
+        flex-direction: column;
+      }
+
+      header h2 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1.2rem;
+      }
+
+      .section h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <h1>Neo Mokoele</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Empowering the Future of Tech with Innovation and Expertise</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Neo Mokoele, a passionate software developer and data scientist with a keen interest in technology, problem-solving, and continuous learning. 
+        I specialize in developing innovative solutions that streamline processes and improve operational efficiency.
+        With a background in Tourism Management and training in Data Science, I’m eager to build a successful career where I can contribute to impactful projects and grow in the tech industry.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <ul>
+        <li>Custom Software Development</li>
+        <li>Data Analysis & Insights</li>
+        <li>Web Development</li>
+        <li>Cloud Solutions</li>
+        <li>Consultation & Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Software Development</li>
+        <li>Data Science & Analytics</li>
+        <li>MySQL</li>
+        <li>CRM Systems</li>
+        <li>Microsoft Office Suite</li>
+        <li>Quality Management Systems (QMS)</li>
+        <li>SAPS Finance</li>
+        <li>Problem-Solving & Critical Thinking</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+<section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <p>
+        <strong>Currently Studying Data Science</strong> - ALX Africa (15-month course, started March 3, 2025)
+        <br><strong>Software Development Scholarship</strong> - Power Learn Project Academy (16 weeks, started February 24, 2025)
+        <br><strong>Matric</strong> - Pace Commercial Secondary School, 2015
+        <br><strong>National Diploma in Tourism Management</strong> - Vaal University of Technology, graduated in 2020
+        <br><strong>Diploma in MySQL and Statistics for Data Analysis</strong> - Alison, 2024
+        <br><strong>Certificate in Quality Management Systems</strong> - Alison, 2024
+      </p>
+    </div>
+  </section>
+  
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <p>
+        <strong>Quality Assurance Specialist</strong> at Alteram Solutions (2023–2025)
+        <br>
+        As a Quality Assurance Specialist, I was responsible for ensuring that the company adhered to high standards of quality in its operations. I worked closely with teams to identify areas for improvement, conducted audits, and provided recommendations to enhance performance and efficiency. My role involved using data analysis and systematic methods to improve processes, which is a key aspect of my transition into a career in tech. I contributed by identifying inefficiencies and suggesting automation tools that could streamline workflows, which laid the foundation for my shift toward software development and data science.
+      </p>
+    </div>
+  </section>
+
+  <!-- Download CV Section -->
+  <section id="cv" class="section">
+    <div class="container">
+      <h2>Download My CV</h2>
+      <a href="https://drive.google.com/file/d/1RkksHZthHzWhoCaCxd1NgEntW7HzKyIw/view?usp=drive_link" class="cv-button" target="_blank" download>Download CV</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you would like to get in touch, feel free to reach out via the following channels:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:neo217024599@gmail.com">neo217024599@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+27681771008">+27 68 177 1008</a></li>
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/27742492233" target="_blank">+27 74 249 2233</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn Profile</a></li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/yourinstagram" target="_blank">Instagram</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Neo Mokoele. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
