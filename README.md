@@ -19,7 +19,7 @@ The primary goal of this portfolio is to make a strong impression on potential e
 ## How to Access My Portfolio on GitHub
 
 1. Go to my GitHub repository: https://github.com/Neo21702/My_Profile/blob/2f361f46d98e4a94e70459ca4234ba6fed775016/README.md *(Make sure to replace with your actual GitHub URL)*.
-2. Click on the file: https://github.com/Neo21702/My_Profile/blob/main/index.html link or coppy to your url to download the entire portfolio project.
+2. Click on the file: https://github.com/Neo21702/My_Profile/blob/main/index.html link and then download the entire portfolio project as an index.html 
 
 ## How to Use the Index.html File
 
